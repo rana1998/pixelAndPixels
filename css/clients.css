@@ -1,0 +1,98 @@
+i{
+  background-color:rgba(0,0,0,0) !important;
+ padding: 0 !important;
+}
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    /* height: 50%; */
+  }
+/* CLIENTS */
+.clients {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 150px 0;
+  background: url(../images/pattern-bg.jpg);
+}
+.clients h6 {
+  display: block;
+  line-height: 1;
+  margin-bottom: 20px;
+  font-family: "Fjalla One", sans-serif;
+  opacity: 0.5;
+  font-size: 14px;
+}
+.clients h2 {
+  margin-bottom: 60px;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 1.2;
+}
+.clients h2:before {
+  content: attr(data-text);
+  font-size: 20vw;
+  opacity: 0.05;
+  position: absolute;
+  left: 0;
+  top: -20%;
+}
+.clients h4 {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding-right: 20%;
+}
+.clients ul {
+  width: 100%;
+  float: left;
+  margin: 0;
+  margin-top: 90px;
+  padding: 0;
+}
+.clients ul * {
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+.clients ul li {
+  width: 25%;
+  float: left;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  position: relative;
+}
+.clients ul li img {
+  opacity: 1;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 15px;
+}
+.clients ul li small {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  text-align: center;
+  font-size: 600;
+  opacity: 0;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 22px;
+}
+.clients ul li:hover small {
+  margin-top: -25px;
+  opacity: 1;
+}
+.clients ul li:hover img {
+  opacity: 0.05;
+  transform: scale(1.2);
+}
