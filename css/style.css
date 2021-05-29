@@ -1144,13 +1144,13 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   font-size: 90px;
-  /* color: #808080; */
-  color: white;
+  color: #808080;
+  /* color: white; */
   font-weight: 700;
 }
 .header .gallery-thumbs .swiper-slide.swiper-slide-active {
-  /* color: #fff; */
-  color: green;
+  color: #fff;
+  /* color: green; */
 }
 .header .gallery-thumbs .swiper-slide.swiper-slide-active a {
   display: block;
