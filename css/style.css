@@ -1145,7 +1145,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 90px;
+  /* font-size: 90px; */
+  font-size:86px;
   color: #808080;
   /* color: white; */
   font-weight: 700;
@@ -1158,7 +1159,8 @@ a:hover {
   display: block;
 }
 .header .gallery-thumbs .swiper-slide a {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size:16px;
   display: none;
   float: right;
   color: #33a16e;
