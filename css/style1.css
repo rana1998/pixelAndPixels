@@ -1080,13 +1080,13 @@ header .sound .equalizer .holder {
   text-decoration: none;
 }
 .navbar .logo {
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .navbar .logo a {
   float: left;
 }
 .navbar .logo a img {
-  height: 56px;
+  /* height: 56px; */
 }
 .navbar .right {
   width: 30%;

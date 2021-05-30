@@ -988,8 +988,8 @@ a:hover {
   transform: translateY(-100%);
 }
 .navbar .logo {
-  margin-left: 0;
-  margin-right: 30px;
+  /* margin-left: 0;
+  margin-right: 30px; */
 }
 .navbar .logo img {
   height: 45px;
