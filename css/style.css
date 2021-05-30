@@ -992,8 +992,9 @@ a:hover {
   margin-right: 30px; */
 }
 .navbar .logo img {
-  height: 45px;
+  /* height: 45px; */
 }
+
 .navbar .email-us {
   margin-left: 0;
   margin-right: auto;

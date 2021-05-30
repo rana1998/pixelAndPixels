@@ -1085,8 +1085,20 @@ header .sound .equalizer .holder {
 .navbar .logo a {
   float: left;
 }
+
+.img{
+ max-width:15rem;
+  image-rendering: auto;
+image-rendering: crisp-edges;
+image-rendering: pixelated;
+}
+
 .navbar .logo a img {
   /* height: 56px; */
+  max-width:15rem;
+  image-rendering: auto;
+image-rendering: crisp-edges;
+image-rendering: pixelated;
 }
 .navbar .right {
   width: 30%;
