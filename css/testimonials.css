@@ -10,7 +10,8 @@
 .testimonial
 {
   /* background-color: rgb(233, 150, 150); */
-  background-color: white;
+  /* background-color: white; */
+  background: url(../images/pattern-bg.jpg);
 
 }
 
@@ -31,9 +32,10 @@
 
 #demo {
     /* background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%); */
-    background: linear-gradient(112deg, antiquewhite 50%, antiquewhite 50%);
+    /* background: linear-gradient(112deg, antiquewhite 50%, antiquewhite 50%); */
     max-width: 900px;
-    margin:10% auto;
+    /* margin:10% auto; */
+    margin:5% auto; 
 }
 
 .carousel-caption {
@@ -114,4 +116,15 @@ i {
     transition: none;
     opacity: unset;
 }
+
+.carousel-indicators li
+{
+    background-color:#00fa9a;
+}
+
+.carousel-indicators .active
+{
+    background-color:black;
+}
+
 

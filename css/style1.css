@@ -1719,7 +1719,8 @@ s .process span:before {
 .works .project-box .content-box .inner h3 span {
   display: block;
   font-size: 6vw;
-  color: #01f7b6;
+  /* color: #01f7b6; */
+  color:#00fa9a;
   margin-left: -10vw;
 }
 
@@ -2402,7 +2403,8 @@ s .process span:before {
   font-size: 3vw;
   font-weight: 800;
   margin-bottom: 0;
-  color: #01f7b6;
+  /* color: #01f7b6; */
+  color:#00fa9a;
 }
 .footer .footer-contact {
   width: 100%;
@@ -2426,7 +2428,8 @@ s .process span:before {
   margin-bottom: 10px;
   font-family: "Fjalla One", sans-serif;
   text-transform: uppercase;
-  color: #01f7b6;
+  /* color: #01f7b6; */
+  color:#00fa9a;
 }
 .footer .footer-bottom ul {
   display: block;
