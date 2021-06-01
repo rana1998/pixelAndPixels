@@ -232,3 +232,41 @@ i {
 .owl-carousel button.owl-dot {
   outline: 0;
 } */
+
+
+/* 
+.imageBox {
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 350px;
+  top: 100px;
+  display: none;
+
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+} */
+
+.imageBox {
+  margin:1%;
+  max-width:150px;
+  max-height:150px;
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
