@@ -253,7 +253,7 @@ i {
 } */
 
 .imageBox {
-  margin:1%;
+  margin:5%;
   max-width:150px;
   max-height:150px;
   position: relative;
@@ -269,4 +269,12 @@ i {
 
 .imageBox:hover .hoverImg {
   display: block;
+}
+
+table tr td
+{
+  padding:4%;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  
 }
