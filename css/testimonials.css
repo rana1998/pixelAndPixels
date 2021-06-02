@@ -278,3 +278,188 @@ table tr td
   border-collapse: collapse;
   
 }
+
+
+
+.testimonialwork {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 150px 0;
+  transition-delay: 0s !important;
+  transition: background 0.4s;
+}
+.testimonialwork h6 {
+  display: block;
+  line-height: 1;
+  margin-bottom: 20px;
+  font-family: "Fjalla One", sans-serif;
+  opacity: 0.5;
+  font-size: 14px;
+}
+.testimonialwork h2 {
+  margin-bottom: 60px;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 1.2;
+  padding-right: 35%;
+}
+.testimonialwork h2:before {
+  content: attr(data-text);
+  /* font-size: 20vw; */
+  font-size:13vw;
+  opacity: 0.05;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: -20%;
+}
+.testimonialwork .project-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 75px 0;
+}
+.testimonialwork .project-box * {
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+.testimonialwork .project-box:hover figure {
+  transform: scale(0.95);
+}
+.testimonialwork .project-box:hover figure img {
+  transform: scale(1.15);
+}
+.testimonialwork .project-box:last-child {
+  padding-bottom: 0;
+}
+.testimonialwork .project-box:nth-child(2n+2) .custom-link a {
+  float: right;
+}
+.testimonialwork .project-box:nth-child(2n+2) .content-box {
+  order: 1;
+  text-align: right;
+  padding-left: 0;
+  padding-right: 5%;
+}
+.testimonialwork .project-box:nth-child(2n+2) .content-box h3 span {
+  margin-left: 0;
+  margin-right: -7vw;
+}
+.testimonialwork .project-box:nth-child(2n+2) figure {
+  order: 2;
+}
+.testimonialwork .project-box figure {
+  width: 55%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+}
+.testimonialwork .project-box figure img {
+  width: 100%;
+}
+.testimonialwork .project-box .content-box {
+  width: 45%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+.testimonialwork .project-box .content-box .inner {
+  margin: 0;
+}
+.testimonialwork .project-box .content-box .inner small {
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Fjalla One", sans-serif;
+  opacity: 0.5;
+  font-size: 14px;
+}
+.testimonialwork .project-box .content-box .inner h3 {
+  font-size: 3vw;
+  font-weight: 800;
+  margin-bottom: 10vh;
+  line-height: 1;
+}
+.testimonialwork .project-box .content-box .inner h3 span {
+  display: block;
+  font-size: 6vw;
+  /* color: #01f7b6; */
+  color:#00fa9a;
+  margin-left: -10vw;
+}
+
+
+/* body {
+    background-color: #000;
+    background-repeat: no-repeat;
+    overflow-x: hidden
+} */
+
+.newcard {
+    position: relative;
+    border: solid 1px #212121;
+    padding: 45px 50px 25px 60px;
+    /* margin-top: 200px; */
+    margin-top: 50px;
+    background-color: #212121;
+    border-radius: 10px;
+    color: #fff;
+    /* margin:0 auto; */
+}
+
+.post-txt {
+    font-size: 20px;
+    margin-bottom: 0
+}
+
+.quote-img {
+    position: absolute;
+    top: 32px;
+    left: 25px;
+    width: 30px;
+    height: 30px
+}
+
+.nice-img {
+    width: 20px;
+    height: 25px;
+    margin-bottom: 7px
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid #212121;
+    margin-left: 85px
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.profile-pic {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    left: 65px;
+    margin-top: 15px
+}
+
+.profile-name {
+    position: absolute;
+    font-size: 22px;
+    margin-top: 60px;
+    left: 210px;
+    color: #616161
+}
