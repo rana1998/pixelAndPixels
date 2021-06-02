@@ -170,11 +170,11 @@ i {
   width: 12px;
   margin-bottom: -1px;
 } */
-.card {
+/* .card {
   background: #fff;
-  box-shadow: 0 8px 30px -7px #c9dff0;
+  box-shadow: 0 8px 30px -7px #c9dff0; */
   /* margin: 0 20px; */
-  margin: 10% 20px;
+  /* margin: 10% 20px;
   padding: 0 10px;
   border-radius: 20px;
   border: 0;
@@ -224,7 +224,7 @@ i {
   .gtco-testimonials {
     margin-top: 20px;
   }
-}
+} */
 
 /* .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
   outline: 0;
@@ -307,7 +307,7 @@ table tr td
 .testimonialwork h2:before {
   content: attr(data-text);
   /* font-size: 20vw; */
-  font-size:13vw;
+  font-size:10vw;
   opacity: 0.05;
   z-index: -1;
   position: absolute;
@@ -407,7 +407,7 @@ table tr td
     border: solid 1px #212121;
     padding: 45px 50px 25px 60px;
     /* margin-top: 200px; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
     background-color: #212121;
     border-radius: 10px;
     color: #fff;
