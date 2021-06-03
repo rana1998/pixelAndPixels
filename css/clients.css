@@ -51,7 +51,7 @@ i{
   width: 100%;
   float: left;
   margin: 0;
-  margin-top: 90px;
+  /* margin-top: 90px; */
   padding: 0;
 }
 .clients ul * {
@@ -62,7 +62,8 @@ i{
   transition: 0.25s ease-in-out;
 }
 .clients ul li {
-  width: 25%;
+  /* width: 25%; */
+  width:30%;
   float: left;
   margin: 0;
   padding: 10px;
