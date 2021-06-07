@@ -154,6 +154,10 @@ i {
     background-color:#00fa9a;
 }
 
+.carousel-indicators{
+   bottom:-90px;
+}
+
 #carouselExampleIndicators .carousel-indicators .active
 {
     background-color:black;
@@ -312,13 +316,13 @@ table tr td
 
 .newcard {
     position: relative;
-    border: solid 1px #212121;
+    /* border: solid 1px #212121; */
     padding: 45px 50px 25px 60px;
     /* margin-top: 200px; */
     /* margin-top: 50px; */
-    background-color: #212121;
+    background-color: white;
     border-radius: 10px;
-    color: #fff;
+    color: ##0e0e0ede;
     /* margin:0 auto; */
 }
 
@@ -346,7 +350,7 @@ table tr td
     height: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-top: 20px solid #212121;
+    border-top: 20px solid white;
     margin-left: 85px
 }
 
@@ -369,7 +373,7 @@ table tr td
     font-size: 22px;
     margin-top: 60px;
     left: 210px;
-    color: #616161
+    color: white;
 }
 
 
