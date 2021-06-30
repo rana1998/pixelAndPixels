@@ -1,36 +1,57 @@
 (function($) {
 	$(document).ready(function() {
 		"use strict";
+
+		// SANDWICH BUTTON
+		$('.sandwich-btn').on('click', function(e) {
+			if ($(".navigation-menu").hasClass("open")) {
+				$("body").toggleClass("overflow");
+				$(".sandwich-text").removeClass("move-up");
+				$(".navigation-menu").removeClass("open");
+				$(".navigation-menu").css("transition-delay", "1s");
+				$(".navigation-menu .nav-bg").css("transition-delay", "0.6s");
+				$(".navigation-menu .nav-bg2").css("transition-delay", "0.2s");
+			} else
+			{
+				$(".navigation-menu").addClass('open');
+				$("body").toggleClass("overflow");
+				$(".sandwich-text").addClass("move-up");
+				$(".navigation-menu").css("transition-delay", "0s");
+				$(".navigation-menu .nav-bg").css("transition-delay", "0.4s");
+				$(".navigation-menu .nav-bg2").css("transition-delay", "0.8s");
+			}
+			$(this).toggleClass("open");
+		});
 		
 	// PRELOADER
-		loader()
-		function loader(_success) {
-			var obj = document.querySelector('.preloader'),
-			inner = document.querySelector('.inner .percentage'),
-			page = document.querySelector('body');
-			obj.classList.remove('page-loaded');
-			page.classList.add('page-loaded');
-			var w = 0,
-				t = setInterval(function() {
-					w = w + 1;
-					inner.textContent = w;
-					if (w === 100){
-						obj.classList.add('page-loaded');
-						page.classList.remove('page-loaded');
-						clearInterval(t);
-						w = 0;
-						if (_success){
-							return _success();
-						}
-					}
-				}, 20);
-		}
+		// loader()
+		// function loader(_success) {
+		// 	var obj = document.querySelector('.preloader'),
+		// 	inner = document.querySelector('.inner .percentage'),
+		// 	page = document.querySelector('body');
+		// 	obj.classList.remove('page-loaded');
+		// 	page.classList.add('page-loaded');
+		// 	var w = 0,
+		// 		t = setInterval(function() {
+		// 			w = w + 1;
+		// 			inner.textContent = w;
+		// 			if (w === 100){
+		// 				obj.classList.add('page-loaded');
+		// 				page.classList.remove('page-loaded');
+		// 				clearInterval(t);
+		// 				w = 0;
+		// 				if (_success){
+		// 					return _success();
+		// 				}
+		// 			}
+		// 		}, 20);
+		// }
 
 		
 	// HAMBURGER AUDIO
-			document.getElementById("hamburger-menu").addEventListener('click', function(e) {
-			document.getElementById("hamburger-hover").play();
-	  	});
+		// 	document.getElementById("hamburger-menu").addEventListener('click', function(e) {
+		// 	document.getElementById("hamburger-hover").play();
+	  	// });
 		
 	// LOGO RANDOM FADE
 		$(function(){
