@@ -2396,7 +2396,8 @@ s .process span:before {
   margin-bottom: 80px;
 }
 .footer .footer-quote img {
-  height: 60px;
+  /* height: 60px; */
+  height: 30px;
   display: block;
   margin-bottom: 20px;
 }

@@ -44,9 +44,17 @@
 <style>
   *
   {
-    margin:0 auto;
-    padding:0;
+    /* margin:0 auto;
+    padding:0; */
   }
+
+  .footer .img {
+    max-width: 15rem;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
   body{
     /* background-color: grey; */
   }
@@ -748,6 +756,100 @@ h2{
   position:static !important;
 }
 
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 100px 0;
+  background: #0e0e0e;
+  color: #fff;
+}
+.footer .footer-quote {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.footer .footer-quote img {
+  /* height: 60px; */
+  height: 30px;
+  display: block;
+  margin-bottom: 20px;
+}
+.footer .footer-quote h2 {
+  font-size: 3vw;
+  font-weight: 800;
+  margin-bottom: 0;
+  /* color: #01f7b6; */
+  color:#00fa9a;
+}
+.footer .footer-contact {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.footer .footer-contact address {
+  margin-bottom: 0;
+}
+.footer .footer-contact address a {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer .footer-bottom {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .footer-bottom h5 {
+  margin-bottom: 10px;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  /* color: #01f7b6; */
+  color:#00fa9a;
+}
+.footer .footer-bottom ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer-bottom ul li {
+  display: inline-block;
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
+  list-style: none;
+}
+.footer .footer-bottom ul li:last-child {
+  margin-right: 0;
+}
+.footer .footer-bottom ul li a {
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 6px;
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+.footer .footer-bottom ul li a:hover {
+  padding-bottom: 1px;
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+}
+
+
+.text-left {
+    text-align: left!important;
+}
+
 </style>
 </head>
 <body>
@@ -833,7 +935,7 @@ Free files are a powerful motivator for bringing new customers into ThemeForest,
     <div class="row">
       <div class="col-12">
         <div class="titles">
-          <h6>PROIT SERVICES</h6>
+          <h4 style="font-weight: 800;">OUR SERVICES</h4>
           <p>We’re constantly refining our product. Adding new features.  Working to 
             help your business grow.</p>
         </div>
@@ -841,65 +943,65 @@ Free files are a powerful motivator for bringing new customers into ThemeForest,
       </div>
       <!-- end col-12 -->
       <div class="col-lg-3 col-md-6">
-        <figure class="wow fadeinUp"> <img src="images/icon01.svg" alt="Image">
+        <figure class="wow fadeinUp"> <img src="images/services/PreProductionIcon.png" alt="Image">
         </figure>
          <article>
            <span></span>
-            <h4>UI-UX DESIGN</h4>
+            <h4>Pre Production</h4>
           </article>
       </div>
       <!-- end col-3 -->
       <div class="col-lg-3 col-md-6">
-        <figure class="wow fadeinUp"> <img src="images/icon02.svg" alt="Image">
+        <figure class="wow fadeinUp"> <img src="images/services/ProductionIcon.png" alt="Image">
         </figure>
          <article>
            <span></span>
-            <h4>DESIGN CODING</h4>
+            <h4>Production</h4>
           </article>
       </div>
       <!-- end col-3 -->
       <div class="col-lg-3 col-md-6">
-        <figure class="wow fadeinUp"> <img src="images/icon03.svg" alt="Image">
+        <figure class="wow fadeinUp"> <img src="images/services/PostProductionIcon.png" alt="Image">
         </figure>
         <article>
            <span></span>
-            <h4>BRANDING</h4>
+            <h4>Post Production</h4>
           </article>
       </div>
       <!-- end col-3 -->
       <div class="col-lg-3 col-md-6">
-        <figure class="wow fadeinUp"> <img src="images/icon04.svg" alt="Image">
+        <figure class="wow fadeinUp"> <img src="images/services/AnimationIcon.png" alt="Image">
         </figure>
          <article>
            <span></span>
-            <h4>MARKETTING</h4>
+            <h4>Animation</h4>
           </article>
       </div>
       <!-- end col-3 --> 
       <div class="col-lg-3 col-md-6">
-        <figure class="wow fadeinUp"> <img src="images/icon05.svg" alt="Image">
+        <figure class="wow fadeinUp"> <img src="images/services/MotionGraphicIcon.png" alt="Image">
         </figure>
          <article>
            <span></span>
-            <h4>IOS APPS</h4>
+            <h4>Motion Graphics</h4>
           </article>
       </div>
       <!-- end col-3 -->
       <div class="col-lg-3 col-md-6">
-        <figure class="wow fadeinUp"> <img src="images/icon06.svg" alt="Image">
+        <figure class="wow fadeinUp"> <img src="images/services/PhotographyIcon.png" alt="Image">
         </figure>
          <article>
            <span></span>
-            <h4>CUSTOM CMS</h4>
+            <h4>Photography</h4>
           </article>
       </div>
       <!-- end col-3 -->
       <div class="col-lg-3 col-md-6">
-        <figure class="wow fadeinUp"> <img src="images/icon07.svg" alt="Image">
+        <figure class="wow fadeinUp"> <img src="images/services/Graphicdesignicon.png" alt="Image">
         </figure>
          <article>
            <span></span>
-            <h4>JAVA APPS</h4>
+            <h4>Graphic Design</h4>
           </article>
       </div>
       <!-- end col-3 -->
@@ -1084,6 +1186,68 @@ Free files are a powerful motivator for bringing new customers into ThemeForest,
 	<!-- end container --> 
   </section>
   <!-- End Client -->
+
+  <footer class="footer text-left">
+    <div class="footer-quote wow fadeIn">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8"> <img src="images/img/pnplogo.png" alt="Image" class="img">
+            <h2>Let's create the flexible website for your business ?</h2>
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end footer-quote -->
+    <div class="footer-contact wow fadeIn">
+      <div class="container">
+        <div class="row"> <div class="col-md-4">
+            <address>
+            Nivki Kristiatik Street No : 81<br>
+            Kiev – Ukraine
+            </address>
+          </div>
+          <!-- end col-4 -->
+          <div class="col-md-4">
+            <address>
+            +380 98 294 80 86<br>
+            +90 598 558 24 80
+            </address>
+          </div>
+          <!-- end col-4 -->
+          <div class="col-md-3">
+            <address>
+            <a href="#">sayhello@brabus.ua</a>
+            </address>
+          </div>
+          <!-- end col-2 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end footer-contact -->
+    <div class="footer-bottom wow fadeIn">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h5>Connect with us </h5>
+            <ul>
+              <li><a href="#">Behance</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Vimeo</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+          <!-- end col-8 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end footer-bottom -->
+  </footer>
 
 
 
