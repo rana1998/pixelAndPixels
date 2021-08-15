@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="format-detection" content="telephone=no">
 <meta name="theme-color" content="#f03a37"/>
-<title>Verno | Creative Showcases for Agencies</title>
+<title>Pixel n Pixels</title>
 <meta name="author" content="Themezinho">
 <meta name="description" content="Verno | Creative Showcases for Agencies">
 <meta name="keywords" content="creative, works, showcase, portfolio, highlight, projects, modern, agency, digital, studio, css, animation, transition, freelancers">
@@ -40,6 +40,7 @@
 <link rel="stylesheet" href="css/odometer.min.css">
 <link rel="stylesheet" href="css/swiper.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="../agency/css/bootstrap.min.css"> -->
 <link rel="stylesheet" href="css/style.css">
 <style>
   /* SANDWICH BUTTON */
@@ -623,6 +624,101 @@
     width: 70vw;
   }
 }  
+
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 100px 0;
+  background: #0e0e0e;
+  color: #fff;
+}
+.footer .footer-quote {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.footer .footer-quote img {
+  /* height: 60px; */
+  height: 30px;
+  display: block;
+  margin-bottom: 20px;
+}
+.footer .footer-quote h2 {
+  font-size: 3vw;
+  font-weight: 800;
+  margin-bottom: 0;
+  /* color: #01f7b6; */
+  color:#00fa9a;
+}
+.footer .footer-contact {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.footer .footer-contact address {
+  margin-bottom: 0;
+}
+.footer .footer-contact address a {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer .footer-bottom {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .footer-bottom h5 {
+  margin-bottom: 10px;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  /* color: #01f7b6; */
+  color:#00fa9a;
+}
+.footer .footer-bottom ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer-bottom ul li {
+  display: inline-block;
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
+  list-style: none;
+}
+.footer .footer-bottom ul li:last-child {
+  margin-right: 0;
+}
+.footer .footer-bottom ul li a {
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 6px;
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+.footer .footer-bottom ul li a:hover {
+  padding-bottom: 1px;
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+}
+
+
+.text-left {
+    text-align: left!important;
+}
+
 </style>
 </head>
 <body>
@@ -655,14 +751,13 @@
     <!-- <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Image"></a> </div> -->
     <div class="logo"  > <a href="index.html"><img src="images/img/pnplogo.png" alt="Image"></a> </div>
     
-    <!-- end logo -->
-    <!-- <div class="email-us">Say <a href="#"><span>hello</span>Pixels n Pixel</a></div> -->
-    <!-- <div class="email-us"> <a href="#">Pixels n Pixel</a></div> -->
-    <!-- end email-us -->
-    <!-- <div class="languages"> <a href="#" class="active">EN</a> <a href="#">RU</a> </div> -->
-    <!-- end languages -->
+
     <div class="sandwich-nav"> <b>MENU</b>
-      <div class="sandwich-btn circle" id="sandwich-btn" data-dist="7">   </div>
+      <div class="sandwich-btn circle" id="sandwich-btn" data-dist="7">
+      <span></span>
+      <span></span>
+      <span></span>
+      </div>
       <!-- end sandwich-btn -->
 
     </div>
@@ -671,7 +766,6 @@
 
   <div class="container-fluid" style="margin: 0;padding: 0;">
     <div style="background-image: url('images/img/headerpic.png');width: 100%;height: 400px;background-repeat: no-repeat;background-size: cover;background-position: center;">
-      hhh
     </div>
     <!-- end works-title -->
     </div>
@@ -698,7 +792,7 @@
         <a class="tab"><span>Commercial</span></a>
         <a class="tab"><span>motion graphics</span></a>
         <a class="tab"><span>photography</span></a>
-        <a class="tab"><span>social media</span></a>
+        <a class="tab"><span>Social media</span></a>
         </div>
       </div>
       </div>
@@ -805,147 +899,243 @@
    <section class="works" id="Commercial"> 
 	<!-- Filter End -->
 	<ul class="works-grid">
-	  <li class="wow fadeIn" data-wow-delay="0s">
-		<figure> <a href="works-single.html">
-      <!-- <video src="Video Output/commercial/FDCILotusFashionWeek.mp4" controls muted style="max-width: 100%;
-      height: auto;"></video> -->
-      <iframe src="https://player.vimeo.com/video/583393720" style="max-width: 100%;
-      height: auto;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/583393720">FDCI Lotus Fashion Week | 2k19</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+	  <li class="wow fadeIn" data-wow-delay="0s" style="width:50%">
+		<!-- <figure>  -->
+      <!-- <a href="works-single.html"> -->
+      <iframe src="https://player.vimeo.com/video/583393720" style="width:100%;
+      height: 300px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      <figcaption>  
+        <h4 style="margin-left:5%;margin-top:3%;font-weight:bold">FDCI Lotus Fashion Week | 2k19</h4>
+      </figcaption>
+<!-- <p><a href="https://vimeo.com/583393720"></a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
       
-      <!-- <img src="images/works01.jpg" alt="Image"> -->
-    </a>
-		  <!-- <figcaption>  <small>Mobile App & UI-UX Design</small>
-			<h3>Digital Start Engine</h3> -->
-		  </figcaption>
-		</figure>
-	  </li>
-	  <li class="wow fadeIn" data-wow-delay="0.1s">
-		<figure> <a href="works-single.html">
-      <!-- <video src="Video Output/commercial/K.P.Tools.mp4" controls muted style="max-width: 100%;
-      height: auto;"></video> -->
-      <iframe src="https://player.vimeo.com/video/583731587" style="max-width: 100%;
-      height: auto;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/583731587">TYPERIUM | APP PROMO</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-      </a>
 
-		  <!-- <figcaption>  <small>Corporate website & e-Commerce</small>
-			<h3>Kitchen</h3>
-		  </figcaption> -->
-		</figure>
+    <!-- </a> -->
+		  <!-- </figcaption> -->
+		<!-- </figure> -->
 	  </li>
-	  <li class="wow fadeIn" data-wow-delay="0.2s">
-		<figure> <a href="works-single.html">
-      <!-- <img src="images/works03.jpg" alt="Image"> -->
-      <!-- <video src="Video Output/commercial/KIIKIIPROMO1.mp4" controls muted style="max-width: 100%;
-      height: auto;"></video> -->
-      <iframe src="https://player.vimeo.com/video/568073052" style="max-width: 100%;
-      height: auto;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/568073052">KIIKII | PROMO 1</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-    </a>
-		  <!-- <figcaption>  <small>UI-UX Design & Mobile App</small>
-			<h3>Line Up</h3>
-		  </figcaption> -->
-		</figure>
+	  <li class="wow fadeIn" data-wow-delay="0.1s" style="width: 50%;">
+		<!-- <figure> <a href="works-single.html"> -->
+      <iframe src="https://player.vimeo.com/video/583731587" style="width:100%;
+      height: 300px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<!-- <p><a href="https://vimeo.com/583731587">TYPERIUM | APP PROMO</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+<figcaption>  
+  <h4 style="margin-left:5%;margin-top:3%;font-weight:bold">TYPERIUM | APP PROMO</h4>
+</figcaption>
+<!-- </a>
+		</figure> -->
 	  </li>
-	  <li class="wow fadeIn" data-wow-delay="0s">
-		<figure> <a href="works-single.html">
-      <!-- <img src="images/works04.jpg" alt="Image"> -->
-      <!-- <video src="Video Output/commercial/KIIKIIPROMO2.mp4" controls muted style="max-width: 100%;
-      height: auto;"></video> -->
-      <iframe src="https://player.vimeo.com/video/583721923" style="max-width: 100%;
-      height: auto;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/583721923">KIIKII | PROMO 2</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-    </a>
-		  <!-- <figcaption>  <small>Corporate website & Mobile App</small>
-			<h3>Moviester</h3>
-		  </figcaption> -->
-		</figure>
+	  <li class="wow fadeIn" data-wow-delay="0.2s" style="width: 50%;">
+		<!-- <figure> <a href="works-single.html"> -->
+      <iframe src="https://player.vimeo.com/video/568073052" style="width:100%;
+      height: 300px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<!-- <p><a href="https://vimeo.com/568073052">KIIKII | PROMO 1</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+<figcaption>  
+  <h4 style="margin-left:5%;margin-top:3%;font-weight:bold">KIIKII | PROMO 1</h4>
+</figcaption>
+<!-- </a>
+		</figure> -->
 	  </li>
-	  <li class="wow fadeIn" data-wow-delay="0.1s">
-		<figure> <a href="works-single.html">
-      <!-- <img src="images/works05.jpg" alt="Image"> -->
-      <!-- <video src="Video Output/commercial/KIIKIIPROMO3.mp4" controls muted style="max-width: 100%;
-      height: auto;"></video> -->
-      <iframe src="https://player.vimeo.com/video/568075833" style="max-width: 100%;
-      height: auto;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/568075833">KIIKII | PROMO 3</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+	  <li class="wow fadeIn" data-wow-delay="0s" style="width: 50%;">
+		<!-- <figure> <a href="works-single.html"> -->
+      <iframe src="https://player.vimeo.com/video/583721923" style="width:100%;
+      height: 300px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<!-- <p><a href="https://vimeo.com/583721923">KIIKII | PROMO 2</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+<figcaption>  
+  <h4 style="margin-left:5%;margin-top:3%;font-weight:bold">KIIKII | PROMO 2</h4>
+</figcaption>
+<!-- </a>
+		</figure> -->
+	  </li>
+	  <li class="wow fadeIn" data-wow-delay="0.1s" style="width: 50%;">
+		<!-- <figure> <a href="works-single.html"> -->
+      <iframe src="https://player.vimeo.com/video/568075833" style="width:100%;
+      height: 300px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<!-- <p><a href="https://vimeo.com/568075833">KIIKII | PROMO 3</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+<figcaption>  
+  <h4 style="margin-left:5%;margin-top:3%;font-weight:bold">KIIKII | PROMO 3</h4>
+</figcaption>
+    <!-- </a>
+		</figure> -->
+	  </li>
+	  <li class="wow fadeIn" data-wow-delay="0.2s" style="width:50%">
+		<!-- <figure> <a href="works-single.html"> -->
+      <iframe src="https://player.vimeo.com/video/583734747" style="width:100%;
+      height: 300px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<!-- <p><a href="https://vimeo.com/583734747">Mister Brown | Stop Motion | Ad Film</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+<figcaption>  
+  <h4 style="margin-left:5%;margin-top:3%;font-weight:bold">Mister Brown | Stop Motion</h4>
+</figcaption>
+    <!-- </a>
+		</figure> -->
+	  </li>
+    <li class="wow fadeIn" data-wow-delay="0.2s" style="width:50%">
+      <!-- <figure> <a href="works-single.html"> -->
+        <iframe src="https://player.vimeo.com/video/583756371" style="width:100%;
+        height: 300px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<!-- <p><a href="https://vimeo.com/583756371">TIFFANY &amp; ANDREW | WEDDING TEASER</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+<figcaption>  
+  <h4 style="margin-left:5%;margin-top:3%;font-weight:bold">TIFFANY & ANDREW | WEDDING TEASER</h4>
+</figcaption>  
+      <!-- </a>
+      </figure> -->
+      </li>
       
-    </a>
-		  <!-- <figcaption>  <small>Mobile App & Website</small>
-			<h3>QBS Bank</h3>
-		  </figcaption> -->
-		</figure>
-	  </li>
-	  <li class="wow fadeIn" data-wow-delay="0.2s">
-		<figure> <a href="works-single.html">
-      <!-- <img src="images/works06.jpg" alt="Image"> -->
-      <!-- <video src="Video Output/commercial/MisterBrown-StopMotion.mp4" controls muted style="max-width: 100%;
-      height: auto;"></video> -->
-      <iframe src="https://player.vimeo.com/video/583734747" style="max-width: 100%;
-      height: auto;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/583734747">Mister Brown | Stop Motion | Ad Film</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-      
-    </a>
-		  <!-- <figcaption>  <small>e-Commerce & UI UX Design</small>
-			<h3>Eventer</h3>
-		  </figcaption> -->
-		</figure>
-	  </li>
-    <li class="wow fadeIn" data-wow-delay="0.2s">
-      <figure> <a href="works-single.html">
-        <!-- <img src="images/works06.jpg" alt="Image"> -->
-        <!-- <video src="Video Output/commercial/ValentinesDay2020SpecialBorgesTheThoughtfulGift.mp4" controls muted style="max-width: 100%;
-        height: auto;"></video> -->
-        <iframe src="https://player.vimeo.com/video/583756371" style="max-width: 100%;
-        height: auto;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/583756371">TIFFANY &amp; ANDREW | WEDDING TEASER</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+	</ul>
+  </section>
+
+  <section class="works" id="social-media"> 
+    <!-- Filter End -->
+
+    <ul class="works-grid">
+      <li class="wow fadeIn" data-wow-delay="0s">
+        <!-- <iframe src="https://player.vimeo.com/video/144952248" width="960" height="540" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> -->
+
+      <figure> 
+
+        <iframe src="https://player.vimeo.com/video/585277632?h=6f76519bcf" width="960" height="540" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        <!-- <p ><a href="https://vimeo.com/585277632">401 Auto Financing | Promo 1</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+        <figcaption>  
+          <h5 style="margin-left:5%;margin-top:3%;font-weight:bold">401 Auto Financing | Promo 1</h5>
+        </figcaption> 
+        <!-- <a href="works-single.html"> -->
         
-      </a>
-        <!-- <figcaption>  <small>e-Commerce & UI UX Design</small>
-        <h3>Eventer</h3>
+        <!-- <iframe src="https://player.vimeo.com/video/585277632?h=6f76519bcf"  poster="https://static.studytonight.com/css/resource.v3/images/hero-video-thumb.png" style="max-width: 100%;
+        height: auto;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/585277632">401 Auto Financing | Promo 1</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+      
         </figcaption> -->
       </figure>
       </li>
-	</ul>
-  </section>
+      <li class="wow fadeIn" data-wow-delay="0.1s">
+      <figure> 
+        <!-- <a href="works-single.html"> -->
+        <iframe src="https://player.vimeo.com/video/585277836?h=1dcde41a57" width="960" height="540" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        <figcaption>  
+          <h5 style="margin-left:5%;margin-top:3%;font-weight:bold">401 Auto Financing | Promo 2</h5>
+        </figcaption> 
+<!-- <p><a href="https://vimeo.com/585277836">401 Auto Financing | Promo 2</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+      </figure>
+      </li>
+      <li class="wow fadeIn" data-wow-delay="0.2s">
+      <figure> 
+        <!-- <a href="works-single.html"> -->
+        <iframe src="https://player.vimeo.com/video/585277937?h=93605c157c" width="960" height="540" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<!-- <p><a href="https://vimeo.com/585277937">401 Auto Financing | Promo 3</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+<figcaption>  
+  <h5 style="margin-left:5%;margin-top:3%;font-weight:bold">401 Auto Financing | Promo 3</h5>
+</figcaption> 
+</figure>
+      </li>
+      <li class="wow fadeIn" data-wow-delay="0s">
+      <figure> 
+        <!-- <a href="works-single.html"> -->
+        <iframe src="https://player.vimeo.com/video/585277888?h=c9f8a10d6c" width="960" height="540" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<!-- <p><a href="https://vimeo.com/585277888">401 Auto Financing | Promo 4</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+<figcaption>  
+  <h5 style="margin-left:5%;margin-top:3%;font-weight:bold">401 Auto Financing | Promo 4</h5>
+</figcaption> 
+</figure>
+      </li>
+      <li class="wow fadeIn" data-wow-delay="0.1s">
+      <figure> 
+        <!-- <a href="works-single.html"> -->
+        <iframe src="https://player.vimeo.com/video/585277760?h=9048a5e3e8" width="960" height="540" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<!-- <p><a href="https://vimeo.com/585277760">401 Auto Financing | Promo 5</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+<figcaption>  
+  <h5 style="margin-left:5%;margin-top:3%;font-weight:bold">401 Auto Financing | Promo 5</h5>
+</figcaption> 
+</figure>
+      </li>
+
+
+      <li class="wow fadeIn" data-wow-delay="0.1s">
+        <figure> 
+          <!-- <a href="works-single.html"> -->
+          <iframe src="https://player.vimeo.com/video/585281423?h=631f8806a8" width="960" height="540" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  <!-- <p><a href="https://vimeo.com/585277760">401 Auto Financing | Promo 5</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+  <figcaption>  
+    <h5 style="margin-left:5%;margin-top:3%;font-weight:bold">Interiorig | Promo</h5>
+  </figcaption> 
+  </figure>
+        </li>
+
+        <li class="wow fadeIn" data-wow-delay="0.1s">
+          <figure> 
+            <!-- <a href="works-single.html"> -->
+            <iframe src="https://player.vimeo.com/video/585281536?h=7a1d99110e" width="960" height="540" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    <!-- <p><a href="https://vimeo.com/585277760">401 Auto Financing | Promo 5</a> from <a href="https://vimeo.com/pixelnpixelsproduction">Pixel N Pixels Production</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+    <figcaption>  
+      <h5 style="margin-left:5%;margin-top:3%;font-weight:bold">Christmas Bathbomb | Promo</h5>
+    </figcaption> 
+    </figure>
+          </li>
+
+    </ul>
+    </section>
   <!-- end works -->
 
 
-  <footer class="footer">
-   <div class="container">
-    <div class="content-box wow fadeIn" data-wow-delay="0s">
-      <h2>ADDRESS</h2>
-      <p> Boryissa Hymri Str. No : 126<br>
-        Poxniaky Greenline<br>
-        Kiev - Ukraine </p>
+  <footer class="footer text-left">
+    <div class="footer-quote wow fadeIn">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9"> <img src="images/img/pnplogo.png" alt="Image" class="img">
+            <h2>Let's create the flexible website for your business ?</h2>
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
     </div>
-    <!-- end content-box -->
-    <div class="content-box wow fadeIn" data-wow-delay="0.1s">
-      <h2>GET IN TOUCH</h2>
-      <p>+380 98 294 80 86<br>
-        hello [at] verno.com.ua</p>
+    <!-- end footer-quote -->
+    <div class="footer-contact wow fadeIn">
+      <div class="container">
+        <div class="row"> <div class="col-md-4">
+            <address>
+            Nivki Kristiatik Street No : 81<br>
+            Kiev – Ukraine
+            </address>
+          </div>
+          <!-- end col-4 -->
+          <div class="col-md-4">
+            <address>
+            +380 98 294 80 86<br>
+            +90 598 558 24 80
+            </address>
+          </div>
+          <!-- end col-4 -->
+          <div class="col-md-3">
+            <address>
+            <a href="#">sayhello@brabus.ua</a>
+            </address>
+          </div>
+          <!-- end col-2 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
     </div>
-    <!-- end content-box -->
-    <div class="content-box wow fadeIn" data-wow-delay="0.2s">
-      <h2>CAREER</h2>
-      <p>To see currently open positions<br>
-        career [at] verno.com.ua</p>
+    <!-- end footer-contact -->
+    <div class="footer-bottom wow fadeIn">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h5>Connect with us </h5>
+            <ul>
+              <li><a href="#">Behance</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Vimeo</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+          <!-- end col-8 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
     </div>
-    <!-- end content-box --> 
-    </div>
-	  <!-- end container -->
-  </footer>
-  <!-- end footer -->
-  <footer class="sub-footer">
-   <div class="container wow fadeIn"><small>All rights reserved 2019 © Verno</small>
-    <ul>
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Behance</a></li>
-      <li><a href="#">Dribbble</a></li>
-    </ul>
-    </div>
-    <!-- end container -->
+    <!-- end footer-bottom -->
   </footer>
   <!-- end sub-footer --> 
 </main>
@@ -973,6 +1163,13 @@
         {
             $('.works').addClass('hidden-work');
             $('#branded').removeClass('hidden-work');
+        }
+
+
+        if($(this).text() == 'Social media')
+        {
+            $('.works').addClass('hidden-work');
+            $('#social-media').removeClass('hidden-work');
         }
 
 		if($(this).text() == 'Show All')
