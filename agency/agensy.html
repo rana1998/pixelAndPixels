@@ -850,6 +850,16 @@ h2{
     text-align: left!important;
 }
 
+
+.clients h4 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-right: 20%;
+
 </style>
 </head>
 <body>
@@ -865,12 +875,12 @@ h2{
   <div class="black-layer"></div>
   <div class="inner">
     <ul>
-      <li><a href="./agensy.html">About Us</a>
+      <li><a href=" ">About Us</a>
       </li>
-      <li><a href="./verno/index.html">Portfolio</a></li>
-      <li><a href="#">Services</a>
+      <li><a href="agensy.html#ourservices" onclick="gotoourservices();">Services</a>
+      <li><a href="../verno/index.html">Portfolio</a></li>
       </li>
-      <li><a href="news.html">Client</a></li>
+      <li><a  href="agensy.html#clients" onclick="gototab();">Client</a></li>
       <li><a href="say-hello.html">Contact</a></li>
     </ul>
     <address>
@@ -933,14 +943,13 @@ h2{
 	<!-- end container -->
 </section>
 <!-- end about-intro -->
-<section class="main-services" data-color="dark">
+<section class="main-services" data-color="dark" id="ourservices">
    <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="titles">
           <h4 style="font-weight: 800;">OUR SERVICES</h4>
-          <p>We’re constantly refining our product. Adding new features.  Working to 
-            help your business grow.</p>
+          <p>We create successful, innovative digital products from the initial concept through full product launch.</p>
         </div>
         <!-- end titles --> 
       </div>
@@ -1014,7 +1023,7 @@ h2{
         </figure>
         <article>
            <span></span>
-            <h4>eCOMMERCE</h4>
+            <h4>Social Media</h4>
           </article>
       </div>
       <!-- end col-3 --> 
@@ -1089,8 +1098,8 @@ h2{
 <!-- end team -->
 
 
-<section class="clients">
-<!-- <section class="logos"> -->
+<section class="clients" id="clients">
+
 	<div class="container">
 	  <div class="row">
 		<div class="col-lg-5 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
@@ -1169,6 +1178,8 @@ h2{
   </section>
   <!-- End Client -->
 
+
+  
   <footer class="footer text-left">
     <div class="footer-quote wow fadeIn">
       <div class="container">
@@ -1244,6 +1255,18 @@ h2{
 <script src='js/wow.min.js'></script> 
 <script src='js/scripts.js'></script> 
 
+<script>
+  function gototab(reload)
+ {
+  window.location.hash = '#clients';
+  window.location.reload(true);
+}
+
+function gotoourservices(reload) {
+  window.location.hash = '#ourservices';
+  window.location.reload(true);
+}
+</script>
 
 </body>
 </html>
