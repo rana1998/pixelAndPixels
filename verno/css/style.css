@@ -646,7 +646,7 @@ a {
 .navbar .sandwich-nav .sandwich-btn {
   float: left;
   margin-left: 10px;
-  margin-top: 18px;
+  /* margin-top: 18px; */
 }
 
 /* SOUNDBAR */
@@ -1225,7 +1225,7 @@ main {
 }
 
  .works-title {
-  width: 70%;
+  /* width: 70%; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -1244,7 +1244,7 @@ main {
   font-weight: 300;
   line-height: 34px;
   margin: 0;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .works .works-grid {
@@ -1334,7 +1334,7 @@ main {
   z-index: 2;
 }
 .works-single .works-title {
-  width: 70%;
+  /* width: 70%; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -2142,7 +2142,7 @@ main {
   text-align: center;
 }
 .footer .container {
-  display: flex;
+  /* display: flex; */
 }
 .footer .container .content-box {
   flex: 1;
