@@ -651,7 +651,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 150px 0;
+  padding: 50px 0;
   background: url(./images/pattern-bg.jpg);
 }
 .clients h6 {
@@ -687,10 +687,14 @@
 }
 .clients ul {
   width: 100%;
-  float: left;
-  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* float: left; */
+  /* margin: 0; */
   /* margin-top: 90px; */
-  padding: 0;
+  /* padding: 0; */
+  /* padding: 2%; */
 }
 .clients ul * {
   -webkit-transition: 0.25s ease-in-out;
@@ -780,7 +784,7 @@ h2{
   margin-bottom: 20px;
 }
 .footer .footer-quote h2 {
-  font-size: 3vw;
+  font-size: 2.7vw;
   font-weight: 600;
   margin-bottom: 0;
   color:#f6931d;
@@ -859,6 +863,36 @@ h2{
     line-height: 40px;
     text-transform: uppercase;
     padding-right: 20%;
+}
+
+.carousel-indicators {
+  /* bottom: -22px; */
+  position: absolute;
+    right: 0;
+    bottom: -22px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    /* margin-right: 15%; */
+    /* margin-left: 15%; */
+    list-style: none;
+    /* background-color: red; */
+}
+
+
+
+.carousel-indicators li {
+  background-color: #f6931d;
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+  background-color: black;
+}
+
 
 </style>
 </head>
@@ -881,13 +915,8 @@ h2{
       <li><a href="../verno/index.html">Portfolio</a></li>
       </li>
       <li><a  href="agensy.html#clients" onclick="gototab();">Client</a></li>
-      <li><a href="say-hello.html">Contact</a></li>
+      <li><a href="../contact-form/index.html">Contact</a></li>
     </ul>
-    <address>
-    Pixels n Pixel<br>
-    Address<br>
-    Contect
-    </address>
   </div>
   <!-- end inner -->
 </nav>
@@ -1040,8 +1069,7 @@ h2{
    <div class="col-12">
    		<div class="titles">
       <h6>TEAM MEMBERS</h6>
-      <p>We’re constantly refining our product. Adding new features.  Working to
-        help your business grow.</p>
+      <p>We're a close team of creatives who work together to create beautiful visual experiences.</p>
     </div>
     <!-- end titles -->
    </div>
@@ -1050,9 +1078,9 @@ h2{
    		<figure>
    			<img src="images/team01.jpg" alt="Image">
    			<figcaption>
-   			<h5>Sasha O'Kharin</h5>
-   				<span>Freelance Creative Developer</span>
-   				<a href="#">Linkedin</a>
+   			<h5>Kartik Gupta</h5>
+   				<span>Managing Director</span>
+   				
    			</figcaption>
    		</figure>
    	</div>
@@ -1061,9 +1089,9 @@ h2{
    		<figure>
    			<img src="images/team02.jpg" alt="Image">
    			<figcaption>
-   			<h5>Oleg Pachorski</h5>
-   				<span>Freelance Creative Developer</span>
-   				<a href="#">Linkedin</a>
+   			<h5>Jatin Singh </h5>
+   				<span>Creative Director</span>
+   				
    			</figcaption>
    		</figure>
    	</div>
@@ -1072,9 +1100,10 @@ h2{
    		<figure>
    			<img src="images/team03.jpg" alt="Image">
    			<figcaption>
-   			<h5>Alex Avdeivva</h5>
-   				<span>Freelance Creative Developer</span>
-   				<a href="#">Linkedin</a>
+   			<h5>Nitin Lama 
+</h5>
+   				<span>Developer</span>
+   				
    			</figcaption>
    		</figure>
    	</div>
@@ -1083,9 +1112,9 @@ h2{
    		<figure>
    			<img src="images/team04.jpg" alt="Image">
    			<figcaption>
-   			<h5>Andrey Kolbasin</h5>
-   				<span>Freelance Creative Developer</span>
-   				<a href="#">Linkedin</a>
+   			<h5>Abhinav Gupta
+</h5>
+   				<span>Graphic Designer</span>
    			</figcaption>
    		</figure>
    	</div>
@@ -1117,7 +1146,8 @@ h2{
   
 		   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   
-  
+        
+
 			  <div class="carousel-inner">
 				<div class="carousel-item active">
 				  <!-- <img src="..." alt="..."> -->
@@ -1164,7 +1194,10 @@ h2{
 				  </div>
 				</div>
   
-			  
+			  <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+          </ol>
 				
 			  </div>
   
@@ -1184,7 +1217,7 @@ h2{
     <div class="footer-quote wow fadeIn">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8"> <img src="images/img/pnplogo.png" alt="Image" class="img" style="width:200px;height:200px">
+          <div class="col-lg-8"> <img src="images/img/pnplogo.svg" alt="Image" class="img" style="width:200px;height:200px">
             <h2>With more than five years of knowledge and expertise, we produce bespoke videos, we build brands!
             </h2>
           </div>
@@ -1196,11 +1229,8 @@ h2{
     <!-- end footer-quote -->
     <div class="footer-contact wow fadeIn">
       <div class="container">
-        <div class="row"> <div class="col-md-4">
-            <address>
-              Pixx Studio, C-168 <br>Ashoka Enclave Part 2<br>Sec.37, Faridabad, Haryana, 121003
-            </address>
-          </div>
+        <div class="row"> 
+          
           <!-- end col-4 -->
           <div class="col-md-4">
             <address>
