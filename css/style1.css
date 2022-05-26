@@ -2404,7 +2404,7 @@ s .process span:before {
   font-size: 2.7vw;
   font-weight: 800;
   margin-bottom: 0;
-  color:#f6931d;
+  /* color:#f6931d; */
 }
 .footer .footer-contact {
   width: 100%;
@@ -2428,7 +2428,7 @@ s .process span:before {
   margin-bottom: 10px;
   font-family: "Fjalla One", sans-serif;
   text-transform: uppercase;
-  color:#f6931d;
+  color:#fff;
 }
 .footer .footer-bottom ul {
   display: block;
@@ -2447,7 +2447,7 @@ s .process span:before {
 }
 .footer .footer-bottom ul li a {
   position: relative;
-  color: #fff;
+  color:#f6931d;
   font-size: 14px;
   font-weight: 600;
   padding-bottom: 6px;

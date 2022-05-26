@@ -1240,9 +1240,9 @@ main {
 .works-title p {
   display: block;
   color: #8f999a;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
-  line-height: 34px;
+  /* line-height: 34px; */
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
